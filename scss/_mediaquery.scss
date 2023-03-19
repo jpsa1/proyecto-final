@@ -76,7 +76,7 @@
 
     .nuestraApp2 .nuestraApp2__titulo {
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
     width: 25%;
     }
 
@@ -84,11 +84,11 @@
 
     .confian {
 
-        .confian__imagen{width: 110%;}
+        .confian__imagen{width: 100%;}
 
         .confian2 {
             top: 0;
-            padding: 5% 50% 0px 10px;
+            padding: 5% 5% 0px 10px;
             margin-left: 5%;
         
             input {
@@ -97,7 +97,7 @@
             }
 
             .confian2__titulo {
-                font-size: 2rem;
+                font-size: 1.5rem;
                 padding-bottom: 2%;
             }
         }
@@ -111,6 +111,8 @@
         text-align: center;
         height: auto;
         padding-top: 5%;
+
+        H3 {font-size: 1rem;}
     }
         
     /* ---------------- PAGINA: SERVICIO ------------------ */

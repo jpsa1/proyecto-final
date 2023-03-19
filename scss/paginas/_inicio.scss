@@ -47,12 +47,10 @@
         .img-fluid {
             padding-left: 80px;
             padding-right: 80px;
+            min-width: 250px;
         }
 
-        .expertos2__subtitulo {
-            text-align: center;
-            font-size:30px ;
-        }
+
 
 
         
@@ -113,8 +111,3 @@
     div {padding: 15px;}
 }
 
-/* MEDIA QUERY */
-
-@media screen and (max-width: 600px) {
-
-}

@@ -147,10 +147,7 @@ header {
 .expertos .expertos2 .img-fluid {
   padding-left: 80px;
   padding-right: 80px;
-}
-.expertos .expertos2 .expertos2__subtitulo {
-  text-align: center;
-  font-size: 30px;
+  min-width: 250px;
 }
 
 .nuestraApp2, .pieDePagina {
@@ -202,7 +199,6 @@ header {
   padding: 15px;
 }
 
-/* MEDIA QUERY */
 .titulo {
   text-align: center;
   font-size: 30px;
@@ -356,7 +352,7 @@ header {
   color: black;
 }
 .caja-formulario2 .caja-formulario2__imagen {
-  width: 120%;
+  width: 100%;
   height: auto;
 }
 
@@ -441,16 +437,16 @@ header {
   }
   .nuestraApp2 .nuestraApp2__titulo, .pieDePagina .nuestraApp2__titulo {
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
     width: 25%;
   }
   /*  ---- SECCION CONFIAN EN NOSOTROS ----  */
   .confian .confian__imagen {
-    width: 110%;
+    width: 100%;
   }
   .confian .confian2 {
     top: 0;
-    padding: 5% 50% 0px 10px;
+    padding: 5% 5% 0px 10px;
     margin-left: 5%;
   }
   .confian .confian2 input {
@@ -458,7 +454,7 @@ header {
     padding: 2% 3%;
   }
   .confian .confian2 .confian2__titulo {
-    font-size: 2rem;
+    font-size: 1.5rem;
     padding-bottom: 2%;
   }
   /*  ---- PIE DE PAGINA ----  */
@@ -467,6 +463,9 @@ header {
     text-align: center;
     height: auto;
     padding-top: 5%;
+  }
+  .pieDePagina H3 {
+    font-size: 1rem;
   }
   /* ---------------- PAGINA: SERVICIO ------------------ */
   .servicios__titulo {
