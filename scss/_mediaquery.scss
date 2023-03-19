@@ -64,7 +64,7 @@
     }
 
     .expertos .expertos2 .expertos2__subtitulo {
-        font-size:25px;
+        font-size:20px;
     }
 
     /*  ---- SECCION CONOCE NUESTRA APP ----  */
@@ -76,7 +76,7 @@
 
     .nuestraApp2 .nuestraApp2__titulo {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
     width: 25%;
     }
 
@@ -84,11 +84,14 @@
 
     .confian {
 
-        .confian__imagen{width: 100%;}
+        .confian__imagen{
+            width: 100%;
+            opacity: 0.7;
+        }
 
         .confian2 {
             top: 0;
-            padding: 5% 5% 0px 10px;
+            padding: 5% 25% 0px 10px;
             margin-left: 5%;
         
             input {
@@ -98,6 +101,7 @@
 
             .confian2__titulo {
                 font-size: 1.5rem;
+                font-weight: bold;
                 padding-bottom: 2%;
             }
         }
