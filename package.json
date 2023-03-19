@@ -1,0 +1,19 @@
+{
+  "name": "3er-pre-entrega---git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpsa1/PreEntrega2-Milanese.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpsa1/PreEntrega2-Milanese/issues"
+  },
+  "homepage": "https://github.com/jpsa1/PreEntrega2-Milanese#readme"
+}

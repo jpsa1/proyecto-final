@@ -1,0 +1,19 @@
+
+
+header {
+    display: grid;
+    grid-template-areas:
+    "barraSup barraSup"
+    "logo nav"
+    ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+}
+
+.barraSuperior {grid-area: barraSup;}
+
+.logo {grid-area: logo;}
+
+.menu {grid-area: nav;}
+
+

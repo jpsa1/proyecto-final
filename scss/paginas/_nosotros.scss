@@ -1,0 +1,14 @@
+
+.titulo {
+    @include titulo-pagina
+}
+
+.nosotros {
+    padding: 10% 15% 10% 15%;
+    text-align: center;
+
+    & h3 {
+        margin-bottom: 10px;
+        font-size: 3em; 
+    }
+}

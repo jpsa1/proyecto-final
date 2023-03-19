@@ -1,0 +1,32 @@
+
+//Movimiento del Logo
+.logo__imagen:hover {
+    transform: translate(2px, 2px);
+}
+
+//Color del menu cuando pasa el mouse
+.nav-item:hover {
+    background-color: rgb(206, 206, 206);
+}
+
+//Barra superior
+
+@keyframes un_efecto {
+    0%{font-size: 25px;}
+    50%{font-size: 26px;}
+    100%{font-size: 25px;}
+}
+
+.barraSuperior h3 {
+   animation-name: un_efecto;
+   animation-iteration-count: 1;
+   animation-timing-function: ease-in;
+   animation-duration: 1s;
+   animation-delay: 0s;
+}
+
+// Portada2
+
+.portada2 {
+    animation-delay: 1s;
+}

@@ -1,0 +1,29 @@
+.titulo {@include titulo-pagina;}
+
+.boletines {
+    padding: 1% 15% 1% 15%;
+    text-align: center;
+
+    h3 {
+        font-size: 3em;
+        
+    }
+}
+
+.seccion-boletin {
+    padding: 5%;   
+
+    .seccion-boletin2 {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        padding-bottom: 5%;
+        text-align: center;
+
+        h3 {text-align: center;}
+
+        img{max-width: 30%;}
+    }
+
+}
+

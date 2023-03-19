@@ -1,0 +1,174 @@
+/* MEDIA QUERY */
+
+@media screen and (max-width: 600px) {
+    
+    /* Achica el logo */
+    
+    .logo {
+        transform: scale(0.8,0.8);
+    }
+    
+    /* Header */
+    
+    header {
+        display: grid;
+        grid-template-areas:
+        "barraSup barraSup"
+        "logo logo"
+        "nav nav"
+        ;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+    }
+
+      /* Barra superior */
+    .barraSuperior h3 {
+        font-size: 20px;
+        }
+
+    .logo {
+        text-align: center;
+        }
+
+    div.container-fluid {
+        justify-content: right !important;
+    }
+    
+    
+    
+    /* Portada */
+
+    .portada2__titulo {
+        font-size: 20px;
+    }
+
+    .portada2 input {
+        font-size: 15px;
+        padding: 2% 3%;
+    }
+
+    /* ---- SECCION EXPERTOS  ---- */
+
+    .expertos .expertos2 {
+
+        //No se porque solo me lo toma con !important
+        flex-direction: column;
+    } 
+
+    .expertos div {
+        text-align:  center;
+    }
+
+    .expertos .expertos__titulo {
+        font-size: 25px;
+    }
+
+    .expertos .expertos2 .expertos2__subtitulo {
+        font-size:25px;
+    }
+
+    /*  ---- SECCION CONOCE NUESTRA APP ----  */
+
+    .nuestraApp2 .nuestraApp2__imagen {
+    width: 35%;
+
+    }
+
+    .nuestraApp2 .nuestraApp2__titulo {
+    text-align: center;
+    font-size: 2em;
+    width: 25%;
+    }
+
+    /*  ---- SECCION CONFIAN EN NOSOTROS ----  */
+
+    .confian {
+
+        .confian__imagen{width: 110%;}
+
+        .confian2 {
+            top: 0;
+            padding: 5% 50% 0px 10px;
+            margin-left: 5%;
+        
+            input {
+                font-size: 15px;
+                padding: 2% 3%;
+            }
+
+            .confian2__titulo {
+                font-size: 2rem;
+                padding-bottom: 2%;
+            }
+        }
+
+    }
+    
+    /*  ---- PIE DE PAGINA ----  */
+
+    .pieDePagina {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding-top: 5%;
+    }
+        
+    /* ---------------- PAGINA: SERVICIO ------------------ */
+
+    .servicios__titulo {
+        
+        font-size: 2em;
+    }
+
+    .servicios {
+        
+        .servicios2 {
+            flex-direction: column;
+            text-align:  center;
+        }
+
+        .servicio2_texto {
+            font-size: 17px;
+        }
+    }
+
+
+/* -------- PAGINA: BOLETINES ----------- */
+
+    .boletines {
+        h3 {
+            font-size: 2em;
+        }
+    }
+
+    .seccion-boletin {
+
+        .seccion-boletin2 {
+            flex-flow: column nowrap;
+        }
+    }    
+
+
+/* -------- PAGINA: CONTACTO ----------- */
+
+.subTitulo {
+    h3 {
+        font-size: 2em;
+    }
+}
+
+    .caja-formulario {
+        flex-direction: column;
+
+    }
+
+/* -------- BOTON WHATSAPP ----------- */
+.btn-wsp{
+    width:63px;
+    height:63px;
+    line-height: 66px;
+}
+  
+  
+//Cierre etiqueta query    
+}

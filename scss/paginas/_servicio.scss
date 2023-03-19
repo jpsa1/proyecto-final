@@ -1,0 +1,33 @@
+
+.titulo {@include titulo-pagina;}
+
+.servicios__titulo {
+    font-size: 3em;
+}
+
+.servicios {
+    padding: 1% 5%;
+    text-align: center;
+
+    .servicios2 {
+        @include flexbox-centrado;
+        justify-content: space-around;
+        padding-bottom: 5%;
+
+        div {
+            width: 100%;
+        }
+        
+        img {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        .servicios2__subtitulo {
+            margin-bottom: 10px;
+            font-size: 2em;
+            padding: 10px;
+        }
+    }
+    
+}

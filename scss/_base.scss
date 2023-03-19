@@ -1,0 +1,78 @@
+
+// Tipos de letra
+
+$letra-principal: 'Roboto', sans-serif;
+$letra-secundaria: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+// Background principal
+
+$color-fondo-principal: rgb(248,249,250);
+
+//Resets
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: $letra-principal;
+    
+}
+
+body {
+    background-color: $color-fondo-principal;
+
+}
+
+p{
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+//Mixins
+
+@mixin flexbox-centrado {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin titulo-pagina {
+    
+        text-align: center;
+        font-size: 30px;
+        background-color: rgb(199, 199, 199);
+        border-top: solid 2px black;
+        border-bottom: solid 2px black;
+        padding-top: 5px;
+        padding-bottom: 5px;
+}
+
+//Maps
+
+$colores-fondo: (
+    titulos: linear-gradient(to right, #606c88, #3f4c6b)
+);
+
+
+//HEADER
+
+.header {
+    background-color: $color-fondo-principal;
+}
+
+// Titulo del resto de las paginas
+.titulo {
+    background-image: map-get($colores-fondo, titulos);
+    H1 {color:white}
+}
+
+//Imagenes responsive
+
+

@@ -1,0 +1,25 @@
+@import 'base';
+
+@import 'layout';
+
+
+//Componentes
+@import 'components/buttons';
+@import 'components/barra_superior';
+@import 'components/logo';
+@import 'components/menu';
+@import 'components/boton_whatsapp';
+
+//Paginas
+@import 'paginas/inicio';
+@import 'paginas/nosotros';
+@import 'paginas/servicio';
+@import 'paginas/boletines';
+@import 'paginas/contacto';
+
+//Transformaciones
+@import 'transformaciones';
+
+//Media Query
+@import 'mediaquery';
+
