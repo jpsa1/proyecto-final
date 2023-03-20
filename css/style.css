@@ -149,6 +149,9 @@ header {
   padding-right: 80px;
   min-width: 250px;
 }
+.expertos .expertos2 .expertos2__subtitulo {
+  text-align: center;
+}
 
 .nuestraApp2, .pieDePagina {
   display: flex;
@@ -197,6 +200,9 @@ header {
 }
 .pieDePagina div {
   padding: 15px;
+}
+.pieDePagina div H3 {
+  color: white;
 }
 
 .titulo {
@@ -247,6 +253,7 @@ header {
 }
 .servicios .servicios2 div {
   width: 100%;
+  height: 350px;
 }
 .servicios .servicios2 img {
   padding-left: 40px;
@@ -385,6 +392,15 @@ header {
 
 .portada2 {
   animation-delay: 1s;
+}
+
+.img-fluid:hover, .nuestraApp2__imagen:hover {
+  animation: pulse;
+  animation-duration: 2s;
+}
+
+.servicios2__subtitulo:hover {
+  font-weight: bold;
 }
 
 /* MEDIA QUERY */

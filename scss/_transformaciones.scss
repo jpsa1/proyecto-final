@@ -30,3 +30,17 @@
 .portada2 {
     animation-delay: 1s;
 }
+
+// Somos expertos y Nuestra app
+
+.img-fluid:hover, .nuestraApp2__imagen:hover {
+    animation: pulse;
+    animation-duration: 2s;
+}
+
+// Pagina servicios - Subtitulos en negrita
+
+.servicios2__subtitulo:hover {
+    font-weight: bold;  
+}
+

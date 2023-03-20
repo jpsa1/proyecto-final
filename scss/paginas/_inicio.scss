@@ -50,6 +50,8 @@
             min-width: 250px;
         }
 
+        .expertos2__subtitulo {text-align: center}
+
 
 
 
@@ -108,6 +110,9 @@
     position: relative;
     padding: 0;
 
-    div {padding: 15px;}
+    div {
+        padding: 15px;
+        H3 {color: white;}
+    }
 }
 
