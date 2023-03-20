@@ -328,23 +328,22 @@ header {
   justify-content: space-around;
   background-color: rgb(180, 207, 180);
 }
-
-.caja-formulario2 {
+.caja-formulario .caja-formulario2 {
   padding: 5%;
   margin: 5px;
 }
-.caja-formulario2 input {
+.caja-formulario .caja-formulario2 input {
   display: block;
 }
-.caja-formulario2 form label {
+.caja-formulario .caja-formulario2 form label {
   width: 72px;
   font-weight: bold;
   display: inline-block;
 }
-.caja-formulario2 form input {
+.caja-formulario .caja-formulario2 form input {
   box-shadow: 4px -3px 9px -3px #181C18;
 }
-.caja-formulario2 form input[type=submit], .caja-formulario2 form input[type=button] {
+.caja-formulario .caja-formulario2 form input[type=submit], .caja-formulario .caja-formulario2 form input[type=button] {
   width: 100%;
   padding: 8px 16px;
   margin-top: 32px;
@@ -354,13 +353,15 @@ header {
   color: #fff;
   background-color: #0d7899;
 }
-.caja-formulario2 form input[type=submit]:hover, .caja-formulario2 form input[type=button]:hover {
+.caja-formulario .caja-formulario2 form input[type=submit]:hover, .caja-formulario .caja-formulario2 form input[type=button]:hover {
   background-color: #76acbd;
   color: black;
 }
-.caja-formulario2 .caja-formulario2__imagen {
+.caja-formulario .caja-formulario__imagen {
   width: 100%;
   height: auto;
+  border-radius: 50px;
+  padding: 5%;
 }
 
 .logo__imagen:hover {
